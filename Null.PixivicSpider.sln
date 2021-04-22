@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullLib.PixivicSpider", "NullLib.PixivicSpider\NullLib.PixivicSpider.csproj", "{38C4A34D-2C1C-4784-A800-37486EC9651D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null.PixivicSpider", "Null.PixivicSpider\Null.PixivicSpider.csproj", "{0414969C-FD19-41F4-BA36-6ACE8AEAABF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38C4A34D-2C1C-4784-A800-37486EC9651D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C4A34D-2C1C-4784-A800-37486EC9651D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C4A34D-2C1C-4784-A800-37486EC9651D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C4A34D-2C1C-4784-A800-37486EC9651D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0414969C-FD19-41F4-BA36-6ACE8AEAABF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0414969C-FD19-41F4-BA36-6ACE8AEAABF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0414969C-FD19-41F4-BA36-6ACE8AEAABF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0414969C-FD19-41F4-BA36-6ACE8AEAABF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8134AB63-DCC6-4C51-B008-74764374FA91}
+	EndGlobalSection
+EndGlobal
