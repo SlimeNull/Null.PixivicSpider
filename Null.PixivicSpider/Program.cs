@@ -19,7 +19,7 @@ namespace Null.PixivicSpider
             }
             DataSrc dataSrc = new DataSrc();
             Console.WriteLine("Getting rank info...");
-            RankData rankData = dataSrc.GetRankQuery(1, count, new DateTime(2021, 4, 19), RankMode.Day);
+            RankData rankData = dataSrc.GetRankQuery(1, count, DateTime.Now - new TimeSpan(3, 0, 0, 0),  RankMode.Day);
             string dir = "./Pixivic";
             if (!Directory.Exists(dir))
                 Directory.CreateDirectory(dir);
